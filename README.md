@@ -1,18 +1,19 @@
-# Hirst-style Painting (Python, turtle)
+# Hirst Painting Generator
 
-**Goal:** Generate a grid of colored dots inspired by Hirst.  
-**Stack:** Python 3.x, `turtle` (+ optional `colorgram` for palette)
+Program that draws a dot painting inspired by Damien Hirst.
 
-## Features
-- Grid layout with spacing & margins
-- Random color choice from a palette
-- Adjustable dot size/rows/columns
+## Main features
+
+- Uses turtle graphics to draw a grid of coloured dots.
+- Colours come from a predefined palette.
+- Builds the painting row by row.
+
+## What I learned
+
+- Drawing with turtle graphics.
+- Working with RGB colour lists.
+- Using nested loops and coordinates to place shapes in a grid.
 
 ## How to run
-```bash
-python main.py
 
-What I learned
-Working with coordinates & loops
-Simple configuration for parameters
-Using helper libs / custom palette
+Open `main.py` in Python 3 and run the file.
