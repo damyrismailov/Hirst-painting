@@ -10,9 +10,9 @@ dot.penup()
 dot.setheading(225)
 dot.forward(300)
 dot.setheading(0)
-dot = 100
+dots = 100
 
-for dot_counts in range(1, dot + 1):
+for dot_counts in range(1, dots + 1):
     dot.dot(20, random.choice(color))
     dot.forward(50)
     if dot_counts % 10 == 0:
